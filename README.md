@@ -155,8 +155,3 @@ Artifacts saved to `logs/` directory.
 ## License
 
 This project is licensed under the MIT License.
-
-## Acknowledgments
-
-- DOCSIS 3.1 specification (CableLabs)
-- Orange Hackathon dataset and challenge
