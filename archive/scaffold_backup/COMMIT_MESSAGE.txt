@@ -1,0 +1,10 @@
+chore(project): scaffold repo for clean commit
+
+- Add project scaffold: `README.md`, `.gitignore`, `requirements.txt`.
+- Create `notebooks/` and `docs/` directories and copy active notebooks.
+- Replace root `docsis_dashboard.py` with a safe launcher delegating to `src/dashboard/docsis_dashboard.py`.
+- Preserve originals in `archive/` and keep core logic importable in `src/`.
+
+Notes:
+- Run `python -m streamlit run src/dashboard/docsis_dashboard.py` to launch the dashboard.
+- Heavy tasks (SHAP, full retrain) are opt-in; use `--no-shap` for quick smoke runs.
