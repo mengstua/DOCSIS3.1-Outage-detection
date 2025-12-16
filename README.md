@@ -38,7 +38,7 @@ DOCSIS3.1-Outage-detection/
 
 ### Prerequisites
 - Python 3.8+
-- 2GB+ RAM (for model training)
+- 8GB+ RAM (for model training)
 
 ### Installation
 
